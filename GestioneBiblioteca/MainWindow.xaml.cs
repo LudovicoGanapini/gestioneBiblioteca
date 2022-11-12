@@ -24,7 +24,7 @@ namespace GestioneBiblioteca
         {
             InitializeComponent();
         }
-
+        //commento fatto direttamente da github
         //contatore numero libri
 
         int nLibri = 0;
