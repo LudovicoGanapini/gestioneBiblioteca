@@ -56,7 +56,9 @@ namespace GestioneBiblioteca
 
         private void btnCreaBiblioteca_Click(object sender, RoutedEventArgs e)
         {
+            //nuovo oggetto biblioteca
             biblioteca biblioteca = new biblioteca();
+
         }
     }
 }
