@@ -34,9 +34,9 @@ namespace GestioneBiblioteca
         {
             libro book = new libro();
             nLibri++;
-            book.titolo = txtTitolo.Text;
-            book.autore = txtAutore.Text;
-            book.pagine = int.Parse(txtPagine.Text); 
+            book.setTitolo(txtTitolo.Text);
+            book.setAutore(txtAutore.Text);
+            book.setPagine(int.Parse(txtPagine.Text)); 
         }
 
         private void btnCercaLibro_Click(object sender, RoutedEventArgs e)
