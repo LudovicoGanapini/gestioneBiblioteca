@@ -14,6 +14,8 @@ namespace GestioneBiblioteca
         private string oraChiusura;
         private string elencoLibri;
 
+        //metodo setNome
+
         private void setNome(string t)
         {
             nome = t;
