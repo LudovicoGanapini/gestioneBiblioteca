@@ -25,8 +25,11 @@ namespace GestioneBiblioteca
             InitializeComponent();
         }
 
+        //contatore numero libri
+
         int nLibri = 0;
 
+        
         private void btnAggiungiLibro_Click(object sender, RoutedEventArgs e)
         {
             libro book = new libro();
